@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const flagsLeft = document.querySelector('#flags-left')
   const result = document.querySelector('#result')
   let width = 10
-  let bombAmount = 20
-  let flags = 0
+  let bombAmount = 10
+  let flags = 3
   let squares = []
   let isGameOver = false
 
