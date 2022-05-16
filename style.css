@@ -80,3 +80,51 @@ div {
   margin-top: 5px;
   color: #e76346;
 }
+
+
+@media only screen and (min-width: 701px) {
+  div {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .container {
+    padding-left: 25%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .header { 
+    font-size: 20px;
+    text-align: center;
+    height: min-content;
+    position: relative;
+    margin-right: 10%;
+  }
+
+  .grid {
+    height: 350px;
+    width: 350px;
+    
+  }
+  .valid {
+    height: 35px;
+    width: 35px;
+  }
+  .checked {
+    height: 35px;
+    width: 35px;
+  }
+  .bomb {
+    height: 35px;
+    width: 35px;
+  }
+  .button {
+    margin-left: 40%;
+    font-size: 25px;
+  }
+
+  #flags-left {
+    margin-right: 45%;
+  }
+}
